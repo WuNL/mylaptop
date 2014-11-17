@@ -1,0 +1,11 @@
+<package>
+	<name>mapping</name>
+	<version>0.0.0</version>
+	<description>
+	mapping, this program will subscribe to point cloud from lmss1, lms2, velodyne0 to generate map of the surrounding environment;
+	</description>
+	<maintainer email="chen0510566@163.com">Chen Cheng</maintainer>
+	<license>BSD</license>
+	<author>Chen Cheng</author>
+	<buildtool_depend>catkin</buildtool_depend>
+</package>
