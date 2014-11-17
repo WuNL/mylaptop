@@ -1,2 +1,0 @@
-set(inertial_MESSAGE_FILES "msg/NCOM.msg")
-set(inertial_SERVICE_FILES "")

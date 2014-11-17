@@ -1,2 +1,0 @@
-set(mapping_MESSAGE_FILES "/home/wunl/catkin_ws/src/ugv/mapping/msg/Grid.msg;/home/wunl/catkin_ws/src/ugv/mapping/msg/Map.msg")
-set(mapping_SERVICE_FILES "")

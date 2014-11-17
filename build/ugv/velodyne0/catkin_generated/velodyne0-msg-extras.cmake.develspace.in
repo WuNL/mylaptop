@@ -1,2 +1,0 @@
-set(velodyne0_MESSAGE_FILES "/home/wunl/catkin_ws/src/ugv/velodyne0/msg/VerticalMeasurements.msg;/home/wunl/catkin_ws/src/ugv/velodyne0/msg/VelodynePacket.msg")
-set(velodyne0_SERVICE_FILES "")

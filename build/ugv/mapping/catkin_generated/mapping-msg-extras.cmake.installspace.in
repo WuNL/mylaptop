@@ -1,2 +1,0 @@
-set(mapping_MESSAGE_FILES "msg/Grid.msg;msg/Map.msg")
-set(mapping_SERVICE_FILES "")

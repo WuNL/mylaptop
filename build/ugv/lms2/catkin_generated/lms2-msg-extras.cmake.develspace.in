@@ -1,2 +1,0 @@
-set(lms2_MESSAGE_FILES "/home/wunl/catkin_ws/src/ugv/lms2/msg/Lms1Status.msg")
-set(lms2_SERVICE_FILES "")

@@ -1,2 +1,0 @@
-set(transformation_MESSAGE_FILES "/home/wunl/catkin_ws/src/ugv/transformation/msg/VehiclePose.msg")
-set(transformation_SERVICE_FILES "")
