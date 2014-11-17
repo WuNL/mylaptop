@@ -1,8 +1,0 @@
-prefix=/home/wunl/catkin_ws/devel
-
-Name: pcdviewer
-Description: Description of pcdviewer
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/wunl/catkin_ws/devel/lib 
-Requires: 

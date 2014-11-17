@@ -1,1 +1,0 @@
-sim.sh: 36: sim.sh: ./app_velodyne1_to_pc: not found
