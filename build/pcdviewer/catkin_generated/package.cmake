@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "pcdviewer")
-set(pcdviewer_MAINTAINER "wnl <wnl@gmail.com>")
-set(pcdviewer_DEPRECATED "")
-set(pcdviewer_VERSION "0.1.0")
-set(pcdviewer_BUILD_DEPENDS "qt_build" "roscpp" "libqt4-dev")
-set(pcdviewer_RUN_DEPENDS "qt_build" "roscpp" "libqt4-dev")
-set(pcdviewer_BUILDTOOL_DEPENDS "catkin")

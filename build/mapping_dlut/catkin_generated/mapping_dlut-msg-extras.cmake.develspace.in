@@ -1,2 +1,0 @@
-set(mapping_dlut_MESSAGE_FILES "/home/wunl/catkin_ws/src/mapping_dlut/msg/Grid.msg;/home/wunl/catkin_ws/src/mapping_dlut/msg/Map.msg")
-set(mapping_dlut_SERVICE_FILES "")
