@@ -1,0 +1,2 @@
+set(inertial_MESSAGE_FILES "/home/wunl/catkin_ws/src/ugv/inertial/msg/NCOM.msg")
+set(inertial_SERVICE_FILES "")

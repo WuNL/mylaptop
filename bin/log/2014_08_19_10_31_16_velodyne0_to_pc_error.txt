@@ -1,0 +1,397 @@
+[31m[ERROR] [1408415477.329738668]: [registerPublisher] Failed to contact master at [localhost:11311].  Retrying...[0m
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415508.938909
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415508.949166
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415508.959414
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415508.96994
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415508.980258
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415508.990604
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.000943
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.011284
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.021667
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.032083
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.042453
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.052741
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.064049
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.07434
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.08468
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.095031
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.105319
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.115628
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.126105
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.136734
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.146961
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.157221
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.167484
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.177799
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.188114
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.198471
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.208906
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.219308
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.229618
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.239886
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.250213
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.260514
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.270821
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.281146
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.291546
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.301905
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.312248
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.32272
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.333042
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.343326
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.353611
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.364012
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.37433
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.384735
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.395093
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.405334
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.415543
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.425834
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.436223
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.446453
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.456708
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.467142
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.477556
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.487881
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.49819
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.508546
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.518913
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.529281
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.539558
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.549768
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.560024
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.570287
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.580527
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.590956
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.601351
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.611691
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.621994
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.632261
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.642601
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.652904
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.663352
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.673716
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.68403
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.694357
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.704736
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.715092
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.725399
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.735707
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.745975
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.756212
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.766486
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.776987
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.7873
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.797658
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.808062
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.818427
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.828764
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.839048
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.849266
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.859619
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.869983
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.880358
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.890735
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.901112
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.91152
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.921844
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.932229
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.94254
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.952871
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.963246
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.973573
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.983934
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415509.994282
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.004588
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.015123
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.025536
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.035823
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.046125
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.056511
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.066837
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.077154
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.087492
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.097885
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.108196
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.118518
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.128814
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.139099
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.149409
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.159727
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.169986
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.180284
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.190559
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.200871
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.211269
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.221631
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.231944
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.242242
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.252506
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.262778
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.272999
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.283259
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.293668
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.304031
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.895378
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.905595
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.91587
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.92611
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.936345
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.946592
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.95681
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415510.994271
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415511.152379
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415511.162621
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415511.389349
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415511.47538
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415511.48559
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415511.735414
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415512.006354
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415512.433845
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415512.645169
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415512.850638
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415513.038993
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415513.249026
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415513.406265
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415513.416625
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415513.427047
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415513.49163
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415513.812213
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415514.337477
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415514.34769
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415514.815557
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415514.977219
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415514.987582
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415515.107892
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415515.26554
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415515.347637
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415515.722903
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415515.845887
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415515.954328
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415515.964633
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415515.995554
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.005815
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.019091
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.029526
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.155838
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.188641
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.355451
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.518754
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.619242
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415516.726915
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415517.195462
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415517.495528
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415517.654264
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415517.8692
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.025415
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.11034
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.120605
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.584635
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.767502
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.777953
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.788316
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.850064
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415518.95942
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415519.313434
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415519.373311
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415519.437733
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415519.699486
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne0_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408415520.02025

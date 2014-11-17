@@ -1,0 +1,2 @@
+set(velodyne0_MESSAGE_FILES "msg/VerticalMeasurements.msg;msg/VelodynePacket.msg")
+set(velodyne0_SERVICE_FILES "")

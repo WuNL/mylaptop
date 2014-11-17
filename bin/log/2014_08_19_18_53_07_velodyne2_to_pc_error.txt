@@ -1,0 +1,4 @@
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408328840.950465
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PoseCallback, line: 63
+TimeStamp:1408328849.398694

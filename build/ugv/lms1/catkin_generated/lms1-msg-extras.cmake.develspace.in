@@ -1,0 +1,2 @@
+set(lms1_MESSAGE_FILES "/home/wunl/catkin_ws/src/ugv/lms1/msg/Lms1Status.msg")
+set(lms1_SERVICE_FILES "")

@@ -1,0 +1,1 @@
+[31m[ERROR] [1408445787.443666674]: [registerPublisher] Failed to contact master at [localhost:11311].  Retrying...[0m

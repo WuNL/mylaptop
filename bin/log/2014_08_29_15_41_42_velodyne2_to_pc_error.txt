@@ -1,0 +1,28 @@
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843661.53039
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843663.570668
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843666.841325
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843667.706889
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843669.104889
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843670.103092
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843680.703202
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843682.439299
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843686.641844
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843688.305626
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843688.504901
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843691.502498
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843691.901622
+Warning: wait for transform error, at file: /home/wunl/catkin_ws/src/ugv/velodyne2_to_pc/src/main.cpp, function: PacketCallback, line: 73
+TimeStamp:1408843698.29726

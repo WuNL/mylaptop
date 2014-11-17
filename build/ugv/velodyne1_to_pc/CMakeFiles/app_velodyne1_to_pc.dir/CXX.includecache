@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wunl/catkin_ws/src/ugv/velodyne1_to_pc/src/main.cpp
+iostream
+-
+ros/ros.h
+/home/wunl/catkin_ws/src/ugv/velodyne1_to_pc/src/ros/ros.h
+tf/transform_listener.h
+/home/wunl/catkin_ws/src/ugv/velodyne1_to_pc/src/tf/transform_listener.h
+tf/transform_datatypes.h
+/home/wunl/catkin_ws/src/ugv/velodyne1_to_pc/src/tf/transform_datatypes.h
+sensor_msgs/PointCloud.h
+/home/wunl/catkin_ws/src/ugv/velodyne1_to_pc/src/sensor_msgs/PointCloud.h
+velodyne0/VelodynePacket.h
+-
+transformation/VehiclePose.h
+-
+

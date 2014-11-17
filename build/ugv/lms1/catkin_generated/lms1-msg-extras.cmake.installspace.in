@@ -1,0 +1,2 @@
+set(lms1_MESSAGE_FILES "msg/Lms1Status.msg")
+set(lms1_SERVICE_FILES "")
