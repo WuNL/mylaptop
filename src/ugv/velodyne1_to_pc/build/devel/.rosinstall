@@ -1,2 +1,0 @@
-- setup-file:
-    local-name: /program/catkin_ws/src/ugv/velodyne1_to_pc/build/devel/setup.sh
