@@ -197,34 +197,41 @@ Eigen::Matrix4f Icp::icpFit()
     int iter_count = 0;//迭代次数
     Voxelize* voxelize2;
     voxelize2 = new Voxelize;
-    for(int count =0;count<5;count ++)
+    //match time,default 4;
+    int match_time=4;
+    for(int count =0;count<match_time;count ++)
     {
         //找匹配对
         mat_param.clear();
         correction();
         double t1 = ros::Time::now().toSec();
         pair<umap::iterator,bool> search_result;
+
+        //the number of plan voxels;
+        int n=0;
+        //the number of plan voxels that are matched with other voxel;
+        int n_matched=0;
+
         for(umap::iterator iter=m_2.begin();iter!=m_2.end();iter++)
         {
-            search_result = voxelize2->neighbor_search(m_1_copy,m_2,iter->first);
-
             if(iter->second.p<0.85)
             {
-
                 continue;
             }
+            n++;
+            search_result = voxelize2->neighbor_search(m_1_copy,m_2,iter->first);
 
             if(search_result.second)
             {
                 unordered_map_voxel v1(search_result.first->first.x(),search_result.first->first.y(),search_result.first->first.z());
                 unordered_map_voxel v2(iter->first.x(),iter->first.y(),iter->first.z());
                 voxel_Merge(v1,v2);
+                n_matched++;
             }
-
         }
-
+        cout<<"n="<<n<<"\t"<<"n_matched="<<n_matched<<endl;
+        cout<<"num of unmatched plan voxels is \t"<<(n-n_matched)<<endl;
         double t2 = ros::Time::now().toSec();
-        cout <<"匹配对个数="<<mat_param.size()<<"\tsearch time ="<<(t2-t1)<<endl;
         if(mat_param.size()<90)
             break;
         linear_System();
