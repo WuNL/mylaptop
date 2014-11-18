@@ -198,7 +198,7 @@ Eigen::Matrix4f Icp::icpFit()
     Voxelize* voxelize2;
     voxelize2 = new Voxelize;
     //match time,default 4;
-    int match_time=4;
+    int match_time=5;
     for(int count =0;count<match_time;count ++)
     {
         //找匹配对
@@ -229,10 +229,17 @@ Eigen::Matrix4f Icp::icpFit()
                 n_matched++;
             }
         }
+        int n_unmatched=n-n_matched;
         cout<<"n="<<n<<"\t"<<"n_matched="<<n_matched<<endl;
         cout<<"num of unmatched plan voxels is \t"<<(n-n_matched)<<endl;
+        /*
+         *if((n>200)&&(n_unmatched>20)&&(match_time<12))
+         *    match_time+=3;
+         *if((n>200)&&(n_unmatched<20))
+         *    match_time-=1;
+         */
         double t2 = ros::Time::now().toSec();
-        if(mat_param.size()<90)
+        if(mat_param.size()<50)
             break;
         linear_System();
         least_Square();

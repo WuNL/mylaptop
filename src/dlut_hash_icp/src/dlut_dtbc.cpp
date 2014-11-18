@@ -122,14 +122,13 @@ int main(int argc,char** argv)
 
         num_of_scan++;
         pcl::transformPointCloud(*cloud,*cloud,tf_mat);
-        *cloud_local_temp += *cloud;
         {
-            cloud_local->swap(*cloud_local_temp);
-            cloud_local_temp->clear();
+            cloud_local->swap(*cloud);
             m2.clear();
             voxelize1->generateUmap(*cloud_local,0.3,m2);
         }
         *cloud_global += *cloud;
+        cloud->clear();
 
     }
 
