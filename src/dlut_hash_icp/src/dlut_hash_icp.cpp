@@ -72,7 +72,7 @@ int main(int argc,char** argv)
 
 
 
-    reader.read<pcl::PointXYZ>("4.pcd",*cloud1);
+    reader.read<pcl::PointXYZ>("3.pcd",*cloud1);
     pcl::removeNaNFromPointCloud(*cloud1,*cloud1, indices);
     cout <<"cloud1.size="<<cloud1->size()<<endl;
     boost::unordered_map<unordered_map_voxel,un_key> m2;
