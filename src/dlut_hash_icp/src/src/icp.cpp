@@ -6,11 +6,11 @@
  ************************************************************************/
 
 #include<iostream>
+#include<math.h>
 #include <eigen3/Eigen/Dense>
 
 #include "icp.h"
 using namespace std;
-
 
 Icp::Icp(umap &m1, umap &m2,pcl::PointCloud<pcl::PointXYZ> &cloud,double jd):
     m_1(m1),
@@ -56,13 +56,12 @@ void Icp::least_Square()
         b(i) = r1*(mat_param[i].u_a - mat_param[i].u_b);
     }
 
+    /*
+     *SVD解线性方程，解就是需要的旋转平移信息
+     */
     VectorXd x = A.jacobiSvd(ComputeThinU | ComputeThinV).solve(b);
 
-    //cout <<"解x= "<<endl<<x<<endl;
     Matrix3d result_R;
-    //x(0)=0;
-    //x(1)=0;
-
 
     //这个旋转其实是从2到1的。我在这里对它进行转置
     result_R << cos(x(1))*cos(x(2)) ,-sin(x(2))*cos(x(0)) + cos(x(2))*sin(x(1))*sin(x(0))  , sin(x(2))*sin(x(0))+cos(x(2))*sin(x(1))*cos(x(0))
@@ -86,8 +85,14 @@ void Icp::least_Square()
     //cout <<"算得的平移向量t=" <<endl<<result_t <<endl;
 
     //cout <<"算得的旋转角弧度为："<<x(2)<<endl;
+    /*
+     *这里必须输出一下结果，要不就不对，别问我为什么我也不知道
+     *目前是存放到RT.txt中做个记录。
+     *如果不需要的话请将信息导入到/dev/null
+     */
     RT<<"算得的旋转矩阵:\n"<<R<<endl;
     RT<<"t=\n"<<t<<endl;
+    _is_Fit=is_Fit(x(0),x(1),x(2),result_t);
 }
 bool Icp::voxel_Merge(unordered_map_voxel &v1,unordered_map_voxel &v2)
 {
@@ -198,7 +203,10 @@ Eigen::Matrix4f Icp::icpFit()
     Voxelize* voxelize2;
     voxelize2 = new Voxelize;
     //match time,default 4;
-    int match_time=5;
+    int match_time=15;
+    vector<bool> iteration_Result;
+    Eigen::Matrix4f error_Return=Eigen::Matrix4f::Identity();
+    error_Return(3,3)=0;
     for(int count =0;count<match_time;count ++)
     {
         //找匹配对
@@ -232,17 +240,21 @@ Eigen::Matrix4f Icp::icpFit()
         int n_unmatched=n-n_matched;
         cout<<"n="<<n<<"\t"<<"n_matched="<<n_matched<<endl;
         cout<<"num of unmatched plan voxels is \t"<<(n-n_matched)<<endl;
-        /*
-         *if((n>200)&&(n_unmatched>20)&&(match_time<12))
-         *    match_time+=3;
-         *if((n>200)&&(n_unmatched<20))
-         *    match_time-=1;
-         */
+
         double t2 = ros::Time::now().toSec();
         if(mat_param.size()<50)
             break;
         linear_System();
         least_Square();
+        cout<<"第"<<iter_count<<"次"<<"迭代完成标志:_is_Fit="<<_is_Fit<<endl;
+        iteration_Result.push_back(_is_Fit);
+        if(end_of_iteration(iteration_Result)==true)
+            break;
+        if(iter_count>13)
+        {
+            cout<<"迭代很多次了还没好。。。"<<endl;
+            return error_Return;
+        }
         iter_count++;
 
         double t3 = ros::Time::now().toSec();
@@ -262,4 +274,27 @@ Eigen::Matrix4f Icp::icpFit()
     cout <<"transformation_matrix=\n"<<transformation_matrix<<endl;
     //cout <<"匹配时间为："<<(t4-t0)<<endl;
     return transformation_matrix;
+}
+
+bool Icp::is_Fit(double angle_x,double angle_y,double angle_z,Vector3d shift_t)
+{
+    double criterion_angle=3.1415926*3/180;
+    double criterion_shift=0.05;
+    double angle=(fabs(angle_x)+fabs(angle_y)+fabs(angle_z));
+    double shift=(fabs(shift_t(0))+fabs(shift_t(1))+fabs(shift_t(2)));
+    cout<<"角度矫正总量："<<angle*180/3.1415926<<"\t"<<"平移矫正总量："<<shift<<endl;
+
+    if((angle<criterion_angle)&&(shift<criterion_shift))
+        return true;
+    else
+        return false;
+}
+
+bool Icp::end_of_iteration(const vector<bool>& result)
+{
+    int n=result.size()-1;
+    if(n<3)
+        return false;
+    if(result[n]&&result[n-1])
+        return true;
 }

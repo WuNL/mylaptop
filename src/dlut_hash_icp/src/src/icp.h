@@ -46,6 +46,11 @@ class Icp
         bool voxel_Merge(unordered_map_voxel &v1 , unordered_map_voxel &v2);//合并匹配对，计算出CT行向量
         bool linear_System();//建立Ax=b的线性模型
         bool correction();//校正
+        //是否匹配完成
+        //初步的想法是连续两次迭代的旋转平移量很小的话就判定为已经收敛
+        bool is_Fit(double angle_x,double angle_y,double angle_z,Vector3d shift_t);
+        bool end_of_iteration(const vector<bool>& result);
+
 
         Eigen::Matrix4f icpFit();
 
@@ -59,6 +64,7 @@ class Icp
         umap m_1_copy;
         pcl::PointCloud<pcl::PointXYZ> cloud_source;
         bool first_iter;
+        bool _is_Fit;
 
         double jd_real;
         double jd_x;

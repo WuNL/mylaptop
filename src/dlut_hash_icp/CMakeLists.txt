@@ -5,7 +5,7 @@ project(dlut_hash_icp)
 #ROS
 #=================================================================
 find_package(catkin REQUIRED
-COMPONENTS roscpp rospy std_msgs message_generation)
+    COMPONENTS roscpp rospy std_msgs message_generation)
 find_package(PCL 1.2 REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
 #=================================================================
@@ -69,17 +69,15 @@ AUX_SOURCE_DIRECTORY(src/src SRC_LIST)
 add_executable(dlut_hash_icp src/dlut_hash_icp.cpp ${SRC_LIST} ${PROJECT_HEADERS_MOC})
 add_executable(dlut_dtbc src/dlut_dtbc.cpp ${SRC_LIST} ${PROJECT_HEADERS_MOC})
 target_link_libraries(dlut_hash_icp
-#	${QT_LIBRARIES}
-	${catkin_LIBRARIES}
-	${PCL_LIBRARIES}
-)
+    ${catkin_LIBRARIES}
+    ${PCL_LIBRARIES}
+    )
 target_link_libraries(dlut_dtbc
-#	${QT_LIBRARIES}
-	${catkin_LIBRARIES}
-	${PCL_LIBRARIES}
-)
+    ${catkin_LIBRARIES}
+    ${PCL_LIBRARIES}
+    )
 install(TARGETS dlut_hash_icp dlut_dtbc																																										
-	ARCHIVE DESTINATION ~/catkin_ws/bin#dynamic lib, *.a;
-	LIBRARY DESTINATION ~/catkin_ws/bin#static lib, *.so;
-	RUNTIME DESTINATION ~/catkin_ws/bin#executable;
-)
+    ARCHIVE DESTINATION ~/catkin_ws/bin#dynamic lib, *.a;
+    LIBRARY DESTINATION ~/catkin_ws/bin#static lib, *.so;
+    RUNTIME DESTINATION ~/catkin_ws/bin#executable;
+    )

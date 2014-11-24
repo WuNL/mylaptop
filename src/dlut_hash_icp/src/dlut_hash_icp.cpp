@@ -26,20 +26,17 @@ using namespace std;
 
 typedef boost::unordered_map<unordered_map_voxel,un_key> umap;
 
-
-
-
-
-
 int main(int argc,char** argv)
 {
     ros::init(argc,argv,"dlut_hash_icp");
     ros::NodeHandle n;
 
-
     Voxelize* voxelize1;
     voxelize1 = new Voxelize;
 
+    /*
+     *网络传输模块
+     */
     Net_transfor n1(0);
 
     //打开两个pcd文件并且分别进行栅格化处理
@@ -47,11 +44,14 @@ int main(int argc,char** argv)
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud1(new pcl::PointCloud<pcl::PointXYZ>);
     pcl::PointCloud<pcl::PointXYZ> cloud_fil;
     pcl::PointCloud<pcl::PointXYZ> cloud_fil1;
-
+    pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_unmerged(new pcl::PointCloud<pcl::PointXYZ>);
 
     pcl::PCDReader reader;
     reader.read<pcl::PointXYZ>("3.pcd",*cloud);
 
+    /*
+     *滤波，过滤掉无效激光点
+     */
     std::vector<int> indices;
     pcl::removeNaNFromPointCloud(*cloud,*cloud, indices);
     indices.clear();
@@ -59,28 +59,46 @@ int main(int argc,char** argv)
 
     boost::unordered_map<unordered_map_voxel,un_key> m1;
 
+    /*
+     *滤波，用于精简数据加速算法
+     */
     pcl::VoxelGrid<pcl::PointXYZ> sor;
     sor.setInputCloud(cloud);
     sor.setLeafSize(0.01f,0.01f,0.01f);
     sor.filter(cloud_fil);
 
-    double t1 = ros::Time::now().toSec();
+    /*
+     * 做一个旋转平移矩阵打乱匹配点云
+     */
+    Eigen::Matrix4f tf_distored=Eigen::Matrix4f::Identity();
+    double theta=3.1415926/6;
+    tf_distored(0,0)=cos(theta);
+    tf_distored(0,1)=-sin(theta);
+    tf_distored(1,0)=sin(theta);
+    tf_distored(1,1)=cos(theta);
+    tf_distored(0,3)=0.1;
+    tf_distored(1,3)=0.1;
+    pcl::transformPointCloud(cloud_fil,cloud_fil,tf_distored);
+
     voxelize1->generateUmap(cloud_fil,0.3,m1);
-    double t2 = ros::Time::now().toSec();
-    cout <<"划分栅格时间="<<(t2-t1)<<endl;
-    cout <<"cloud_fil.size="<<cloud_fil.size()<<endl;
 
-
-
-    reader.read<pcl::PointXYZ>("3.pcd",*cloud1);
+    reader.read<pcl::PointXYZ>("4.pcd",*cloud1);
     pcl::removeNaNFromPointCloud(*cloud1,*cloud1, indices);
+
+    sor.setInputCloud(cloud1);
+    sor.setLeafSize(0.01f,0.01f,0.01f);
+    sor.filter(cloud_fil1);
+    *cloud_unmerged=(cloud_fil+cloud_fil1);
+
+    /*
+     *存储未做任何处理的点云
+     */
+    pcl::PCDWriter writer;
+    writer.write("un_merged.pcd",*cloud_unmerged);
+
     cout <<"cloud1.size="<<cloud1->size()<<endl;
     boost::unordered_map<unordered_map_voxel,un_key> m2;
-
-
-
-    voxelize1->generateUmap(*cloud1,0.3,m2);
-
+    voxelize1->generateUmap(cloud_fil1,0.3,m2);
     /*
        double jd = 30*3.1415927/180;
        double x_shift = 0.1;
@@ -129,38 +147,19 @@ int main(int argc,char** argv)
     }
     }
     }
-
-
     pcl::io::savePCDFileBinary("result.pcd",cloud_a);
     */
 
-    delete voxelize1;
+    double t0=ros::Time::now().toSec();
     Icp testicp(m1,m2,cloud_fil,0);
-    testicp.icpFit();
+    Eigen::Matrix4f tf_mat=testicp.icpFit();
+    cout<<"花费时间："<<(ros::Time::now().toSec()-t0)<<endl;
+    pcl::transformPointCloud(cloud_fil,cloud_fil,tf_mat);
+    cloud->clear();
+    *cloud=(cloud_fil+cloud_fil1);
+    writer.write("merged.pcd",*cloud);
 
-
-
-    /*
-       MatrixXd A(2,6);
-       VectorXd b(6);
-       b <<1,2,3,4,5,6;
-       RowVectorXd c = b.transpose();
-       cout <<b<<endl;
-       cout <<c <<endl;
-       for(int i=0;i<7;i++)
-       {
-       }
-    //cout << A <<endl;
-    */
-    /*
-       MatrixXf A = MatrixXf::Random(3, 2);
-       cout << "Here is the matrix A:\n" << A << endl;
-       VectorXf b = VectorXf::Random(3);
-       cout << "Here is the right hand side b:\n" << b << endl;
-       cout << "The least-squares solution is:\n"
-       << A.jacobiSvd(ComputeThinU | ComputeThinV).solve(b) << endl;
-       */
-    //cout << sin(3.14)<<endl;
+    delete voxelize1;
     cout << "hello icp" <<endl;
     return 0;
 }
